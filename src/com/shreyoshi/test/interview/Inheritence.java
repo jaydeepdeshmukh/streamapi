@@ -25,6 +25,11 @@ public class Inheritence {
 		//com.shreyoshi.test.interview.Animal cannot be cast to com.shreyoshi.test.interview.Dog
 		//Dog dg = (Dog) new Animal(); 
 		//System.out.println(dg.color);
+		
+		//downcasting explicitly
+		Dog dg = (Dog) animal;
+		System.out.println(dg.color);
+		
 	}
 
 }

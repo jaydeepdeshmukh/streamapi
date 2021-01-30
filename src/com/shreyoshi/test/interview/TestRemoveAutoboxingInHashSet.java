@@ -17,6 +17,7 @@ public class TestRemoveAutoboxingInHashSet {
 		for (short i = 0; i < 100; i++) {
 			shortSet.add(i);
 			shortSet.remove(i - 1);
+//			shortSet.remove((short) ((short)i-1));
 		}
 		System.out.println(shortSet.size());
 	}
